@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ctrl | Home</title>
+    <link rel ="icon" sizes="32x32" href="/images/logo.png">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="css/page2.css">
+	<link rel="stylesheet" href="bootstrap/cs/bootstrap.css">
+	<script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600">
+</head>
+<body>
+	<header >
+		<div>
+			<a href="index.html" id="title">
+				<img class="img-header" src="images/title.png" alt="Title" align="top">
+			</a>
+			<nav>
+	        <ul class="nav-header">
+	          	<li>
+	              <a href="http://localhost:8080/btl_hl/web_hl/out/index.html">Home</a>
+	          	</li>
+	            <li class="active">
+	              <a href="courses_sign-outed.html">Courses</a>
+	              	<ul class="menu2">
+						<li><a href="courses_sign-ined-html.html">HTML</a></li>
+						<li><a href="courses_sign-ined-css.html">CSS</a></li>
+						<li><a href="courses_sign-ined-bootstrap.html">BOOTSTRAP</a></li>
+						<li><a href="">JAVASCRIPT</a></li>
+						<li><a href="">JQUERY</a></li>
+						<li><a href="">PHOTOSHOP</a></li>
+					</ul>
+	            </li>
+	            <li>
+	              <a href="news_sign-outed.html">News</a>
+	              	<ul class="menu2">
+						<li><a href="news_sign-ined-html.html">HTML</a></li>
+						<li><a href="courses_sign-ined-css.html">CSS</a></li>
+						<li><a href="courses_sign-ined-bootstrap.html">BOOTSTRAP</a></li>
+						<li><a href="">JAVASCRIPT</a></li>
+						<li><a href="">JQUERY</a></li>
+						<li><a href="">PHOTOSHOP</a></li>
+					</ul>
+	            </li>
+	            <li>
+	              <a href="docs_sign-outed.html">Docs</a>
+	              	<ul class="menu2">
+						<li><a href="">HTML</a></li>
+						<li><a href="">CSS</a></li>
+						<li><a href="">BOOTSTRAP</a></li>
+						<li><a href="">JAVASCRIPT</a></li>
+						<li><a href="">JQUERY</a></li>
+						<li><a href="">PHOTOSHOP</a></li>
+						<li><a href="">OTHER</a></li>
+					</ul>
+	            </li>
+	            <li>
+	              <a href="about_sign-outed.html">About</a>
+	              		<ul class="menu2">
+						<li><a href="">PAGE</a></li>
+						<li><a href="">AUTHER</a></li>
+					</ul>
+	            </li>
+	            <li>
+	              <a href="contact_sign-outed.html">Contact</a>
+	            </li>
+	            <li>
+	              <a href="help_sign-outed.html">Help</a>
+	            </li>
+	            <li>
+	              <a href="sign-in.html">Sign in</a>
+	            </li>
+	            <li>
+	              <a href="sign-up.html">Sign up</a>
+	            </li>
+	        </ul>
+	      </nav>
+		</div>
+	</header><!-- /header --> 
+
+	<div class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+				<div class="left">
+					<h2>Bài 01: HTML là gì? Bố cục HTML của một trang web</h2>
+					<p>Khi bắt đầu làm quen với lập trình web thì HTML chính là nội dung đầu tiên mà bạn phải học, sau đó bạn sẽ kết hợp với CSS để tạo ra những sản phảm rất là độc đáo. Nghe nói thì hay nhưng bạn mới học nên có lẽ hơi mơ hồ phải không nào :D Ok trong serie này ta  sẽ cùng nhau khám phá nhé.</p>
+					<h3>1. HTML là gì?</h3>
+					<p>HTML là chữ viết tắt của HyperText Markup Language, có nghĩa là ngôn ngữ đánh dấu siêu văn bản. Nó dùng để định dạng bố cục, các thuộc tính liên quan đến cách hiển thị của một đoạn text và được hiển thị trên một chương trình đặc biệc ta gọi là Browser. Hiện nay có khá nhiều Browser như Firefox, Chrome, Cốc Cốc, ...Tất cả Browser đều có điểm chung là giúp người dùng thao tác với website và nó đều có khả năng biên dịch những đoạn mã HTML, CSS và Javascript.</p>
+					<p>HTML là một định dạng đặc biệc của XML nên nó sẽ có thẻ mở và thẻ đóng với cú pháp như sau:</p>
+					<img src="images/2.png" alt="">
+					<p>Ngoài ra mỗi thẻ HTML còn có một số thuộc tính riêng và danh sách các thuộc tính sẽ nằm bên trong thẻ mở như sau:</p>
+					<img src="images/3.png" alt="">
+					<p>Phần này mình sẽ nói rõ hơn ở bài tiếp theo.
+						Như vậy HTML ra đời với mục đích thiết kế bố cục nội dung cho dữ liệu nói chung và cho giao diện website nói riêng.</p>
+					<h3 id="bocuc">
+						2. Bố cục trang web
+					</h3>
+					<p>Thông thường bổ cục HTML của một website sẽ có dạng nhu sau:</p>
+					<img src="images/1.png" alt="">
+					<p>Trong đó :</p>
+					<ul>
+						<li><code>!DOCTYPE html</code>Là phần khai báo kiểu dữ liệu hiển thị là <code>html</code>"&nbsp;" để trình duyệt biết.</li>
+						<li><code>html</code> và <code>/html</code> là cặp thẻ nằm ngoài cùng và nó có nhiệm vụ là bao hết nội dung của trang web lại, thẻ này là bắt buộc.</li>
+						<li><code>head</code> và <code>/head</code> là phần khai báo thông tin của trang web.</li>
+						<li><code>title</code> và <code>/title</code> nằm bên trong thẻ <code>head</code> và đây chính là khai báo tiêu đề cho trang web</li>
+						<li><code>body</code> và <code>/body</code> là thành phần quan trọng nhất, nó chứa những đoạn mã HTML dùng để hiển thị trên website.</li>
+						<li>Các thẻ còn lại nằm trong thẻ <code>body</code> chính là các thẻ định dạng dữ liệu</li>
+
+					</ul>
+
+				</div>
+					
+			</div>
+				
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<div class="right_top">
+						<h2 >HTML CĂN BẢN</h2>
+						<ul>
+							<li class="doimau"><a href="#bocuc" >Bài 1: HTML là gì ? Bố cục HTML của một trang web</a></li>
+							<li><a href="">Bài 2: HTML Elements và Attributes</a></li>
+							<li><a href="">Bài 3: Các thẻ HTML định dạng văn bản</a></li>
+							<li><a href="">Bài 4: Các thẻ HTML định dạng heading và list</a></li>
+							<li><a href="">Bài 5: Các thẻ HTML định dạng Table</a></li>
+							<li><a href="">Bài 6: Dùng thẻ a trong HTML để tạo links</a></li>
+							<li><a href="">Bài 7: Dùng thẻ img trong HTML để tạo hình ảnh</a></li>
+							<li><a href="">Bài 8: Sử dụng CSS tùy chỉnh giao diện HTML</a></li>
+						</ul>
+					</div>
+					<div class="right_bottom">
+						<h3>HTML </h3>
+						<ul>
+							<li class="doimau2"><a href="">HTML căn bản</a></li>
+							<li><a href="">HTML5 căn bản</a></li>
+							<li><a href="">HTML5 canvas</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+			</div>
+
+
+		</div>
+	</div>
+	
+	<footer>
+		<img class="img-footer" src="images/title.png" alt="Logo">
+		<a href="about_sign-outed.html">
+			<img class="img-author" src="images/author.png" alt="Author">
+		</a>
+		<div class="clear"></div>
+		<p>© 2016 Ctrl</p>
+	</footer><!-- /footer -->
+</body>
+</html>

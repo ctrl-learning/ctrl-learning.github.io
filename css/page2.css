@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.right_bottom ul li {
+    list-style: none;
+    padding-left: 10px;
+    padding: 7px 5px;
+    text-decoration: underline;
+    border-top: 1px solid gray;
+}
+
+.right_bottom h3 {
+    text-align: center;
+    background: rgba(128, 128, 128, 0.34);
+    padding: 6px 5px 10px 5px;
+    margin-top: 0px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.right_bottom {
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.right_top ul li {
+    list-style: none;
+    padding: 5px 5px;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+.right_top {
+    border: 1px solid black;
+    margin-top: 15px;
+}
+
+.right_top h2 {
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(128, 128, 128, 0.44);
+    padding: 10px 5px;
+    margin-top: 0px;
+}
+
+.left ul {
+    padding-left: 30px;
+}
+
+.left h3 {
+    padding-left: 15px;
+    border-bottom: 2px solid blue;
+    width: 230px;
+    margin-left: 20px;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left p {
+    font-size: 17px;
+    padding: 10px 6px;
+    text-align: justify;
+}
+
+.left h2 {
+    font-size: 26px;
+    font-weight: bold;
+    background: rgba(128, 128, 128, 0.24);
+    padding: 30px 5px;
+    margin-top: 0px;
+}
+
+.left {
+    border: 1px solid black;
+    margin: 13px;
+}
+.right_top>ul>.doimau>a {
+    color: red;
+}
